@@ -13,6 +13,19 @@
 <body>
 <header>
 <h1>Hello There!</h1>
+<details>
+<summary>About</summary>
+<p>
+This section entails more information about the website.
+</p>
+</details>
+<details>
+<summary>Contact</summary>
+<p>
+This section is about my contact information, here, you can contact me. 
+</p>
+</details>
+<mark>Hello world!</mark>
 </header>
 <hr>
 <main>
@@ -108,14 +121,27 @@ Favourite color: <input type="color" name="fav_color">
   <option value="opel">Opel</option>
   <option value="audi">Audi</option>
 </select>
+<br>
+<label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
 <label for="upload">Upload files</label>
-<input type="file" id="upload">
+<input type="file" id="upload"> 
+<br>
 <input type="submit" value="Send">
 <input type="reset">
 </form>
 </main>
 <hr>
 <footer>
+<code>const greet = document.getElementById("greet");</code>
+This is a <code>button</code> button.
 &copy;
 &trade;
 &euro;
