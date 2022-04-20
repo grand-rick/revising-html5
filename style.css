@@ -1,0 +1,12 @@
+.amy {
+    color: green;
+}
+
+.amy:hover {
+    color:pink;
+}
+
+.amy img {
+    background-color: currentColor;
+}
+
